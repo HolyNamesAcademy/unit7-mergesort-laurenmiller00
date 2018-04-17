@@ -57,7 +57,8 @@ public class Main {
      * @param hi the index of the last element in the range + 1.
      */
     public static void sort(ArrayList<Integer> arrayList, int lo, int hi) {
-        
+        ArrayList<Integer> smaller = (ArrayList<Integer>) arrayList.subList(lo, hi-1);
+
     }
 
     /**
@@ -71,6 +72,6 @@ public class Main {
      * @param hi the index of the last element in the second range + 1.
      */
     public static void merge(ArrayList<Integer> arrayList, int lo, int mid, int hi) {
-        throw new UnsupportedOperationException("merge() has not been implemented yet");
+        
     }
 }
